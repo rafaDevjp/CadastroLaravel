@@ -1,0 +1,33 @@
+
+.border-warning2{
+  
+    border-color: #ff6207!important;
+    border-top-color: #ff6207 !important;
+    border-right-color: #ff6207 !important;
+    border-bottom-color: #ff6207 !important;
+    border-left-color: #ff6207 !important;
+}
+.bg_input{
+    background-color:  rgba(255, 255, 255, 0.151) !important;
+    color: #ff6207 !important;
+}
+
+.bg_tela{
+    background:  50% 50% url('../images/img1.jpg')no-repeat; 
+    background-size: cover;
+} 
+
+#login{
+    min-height: 100vh;
+} 
+
+#formulario{
+
+    background: rgba(20, 20, 20, 0.178);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    color: whitesmoke;
+    text-shadow: 0.5pt 1pt 1pt   black;
+    font-weight: bold;
+    border-radius: 10px;
+}
