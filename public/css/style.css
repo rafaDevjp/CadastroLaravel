@@ -25,9 +25,12 @@
 
     background: rgba(20, 20, 20, 0.178);
     backdrop-filter: blur(10px);
-    position: absolute;
+    border-radius: 10px;
+}
+
+#formulario h2, label{
     color: whitesmoke;
     text-shadow: 0.5pt 1pt 1pt   black;
     font-weight: bold;
-    border-radius: 10px;
 }
+

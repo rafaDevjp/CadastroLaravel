@@ -9,6 +9,9 @@ Route::get('/', 'usuariosController@index')->name('inicio');
 //Action de formulario login
 Route::post('/logar_usuario', 'usuariosController@logar_usuario');
 
+//Fazer logout
+Route::get('logout', 'usuariosController@logout');
+
 //apresenta view registro
 Route::get('/resgistrar_usuarios', 'usuariosController@show_registro')->name('registar');
 
@@ -21,5 +24,5 @@ Route::get('/recuperar_senha', 'usuariosController@redefinir_senha')->name('rede
 //Action de recuperação de Senha
 Route::post('/recuperar_senha', 'usuariosController@recuperar_senha');
 
-
-
+//presenta a session DashBooard
+Route::get('/dashboard_inicio','sistemaController@show_dashboard');
